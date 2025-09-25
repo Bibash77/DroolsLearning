@@ -1,0 +1,40 @@
+package com.example.droolsapp.rules
+
+import com.example.droolsapp.model.CatalogElement;
+import com.example.droolsapp.model.RuleResponse;
+import com.example.droolsapp.model.RuleResponseContainer;
+import com.example.droolsapp.util.RuleUtils;
+
+dialect "mvel"
+
+rule "Check Active Status with Missing Description"
+    @agendaGroup("OffDBArch")
+    @dependentNodes("ClientSpecificFactorsInformation", "ClientSpecificFactorsStatus", "ClientSpecificFactorsCSFactorDescription")
+when
+    $response : RuleResponseContainer()
+
+    $statusElement : CatalogElement( code == "ClientSpecificFactorsStatus",
+                                     $oid : oid,
+                                     $pid : pid,
+                                     $value : value != null )
+
+    eval( RuleUtils.hasActiveStatus($value) )
+
+    not CatalogElement( code == "ClientSpecificFactorsCSFactorDescription",
+                        oid == $oid,
+                        pid == $pid,
+                        value != null,
+                        eval( RuleUtils.descriptionPresentAndNotEmpty(value) ) )
+then
+    System.out.println("---- Rule Triggered: Check Active Status with Missing Description ----");
+    System.out.println("OID: " + $statusElement.getOid() + " | PID: " + $statusElement.getPid());
+    System.out.println("Status matched Active but description missing/empty.");
+
+    RuleResponse rr = new RuleResponse();
+    rr.setCode($statusElement.getCode());
+    rr.setOid($statusElement.getOid());
+    rr.setPid($statusElement.getPid());
+    rr.setRuleName(drools.getRule().getName());
+
+    $response.add(rr);
+end
