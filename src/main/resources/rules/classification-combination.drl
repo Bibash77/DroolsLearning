@@ -1,0 +1,9 @@
+rule "Rule 0007: Classification ID + Value combination must be unique"
+    when
+        $response: RuleResponseContainer()
+        $violations: List() from collect(
+            RuleResponse() from DbRulesHelper.validateUniqueClassificationCombination(model)
+        )
+    then
+        $response.updateResults($violations);
+end

@@ -1,0 +1,630 @@
+{
+  "apiMessageList": [
+    {
+      "category": "System",
+      "id": "SM0001",
+      "parameters": [
+        {
+          "name": "DBSCB",
+          "precision": "1_1",
+          "value": "Each Combination of 'Description', 'Identifier', and 'Name' should be unique"
+        },
+        {
+          "name": "DBSCB",
+          "precision": "2_1",
+          "value": "Each Combination of 'Description', 'Identifier', and 'Name' should be unique"
+        }
+      ],
+      "priority": "High",
+      "severity": "Error",
+      "text": "The following Nodes/Attributes failed against Data Validation"
+    },
+    {
+      "category": "System",
+      "id": "SM0002",
+      "parameters": [
+        {
+          "name": "DBACCBS",
+          "precision": "0_1",
+          "value": "Enter required data "
+        },
+        {
+          "name": "DBACCCFSAS",
+          "precision": "0_1",
+          "value": "Enter required data "
+        },
+        {
+          "name": "DBACCI",
+          "precision": "0_1",
+          "value": "Enter required data "
+        },
+        {
+          "name": "DBACD",
+          "precision": "0_1",
+          "value": "Enter required data "
+        },
+        {
+          "name": "DBACED",
+          "precision": "0_1",
+          "value": "Enter required data "
+        },
+        {
+          "name": "DBACICR",
+          "precision": "0_1",
+          "value": "Enter required data "
+        },
+        {
+          "name": "DBACN",
+          "precision": "0_1",
+          "value": "Enter required data "
+        },
+        {
+          "name": "DBACNAME",
+          "precision": "0_1",
+          "value": "Enter required data "
+        },
+        {
+          "name": "DBACRCI",
+          "precision": "0_1",
+          "value": "Enter required data "
+        },
+        {
+          "name": "DBACRD",
+          "precision": "0_1",
+          "value": "Enter required data "
+        },
+        {
+          "name": "DBACRN",
+          "precision": "0_1",
+          "value": "Enter required data "
+        },
+        {
+          "name": "DBCCCCCCSCDTC",
+          "precision": "0_1",
+          "value": "Enter required data "
+        },
+        {
+          "name": "DBCCCCCCSCDTC",
+          "precision": "0_2",
+          "value": "Enter required data "
+        },
+        {
+          "name": "DBCCCCCDESC",
+          "precision": "0_1",
+          "value": "Enter required data "
+        },
+        {
+          "name": "DBCCCCCID",
+          "precision": "0_1",
+          "value": "Enter required data "
+        },
+        {
+          "name": "DBCRAVGACCCFGDESC",
+          "precision": "0_1",
+          "value": "Enter required data "
+        },
+        {
+          "name": "DBCRAVGACCCFGID",
+          "precision": "0_1",
+          "value": "Enter required data "
+        },
+        {
+          "name": "DBCRAVGACCCFGNAME",
+          "precision": "0_1",
+          "value": "Enter required data "
+        },
+        {
+          "name": "DBCRAVGACCCFGSTEPBENMULYFIXVAL",
+          "precision": "0_1",
+          "value": "Enter required data "
+        },
+        {
+          "name": "DBCRAVGACCCFGSTEPESET",
+          "precision": "0_1",
+          "value": "Enter required data "
+        },
+        {
+          "name": "DBCRAVGACCCFGSTEPID",
+          "precision": "0_1",
+          "value": "Enter required data "
+        },
+        {
+          "name": "DBCRAVGACCCFGSTEPNAME",
+          "precision": "0_1",
+          "value": "Enter required data "
+        },
+        {
+          "name": "DBCRAVGACCCFGSTEPNUM",
+          "precision": "0_1",
+          "value": "Enter required data "
+        },
+        {
+          "name": "DBCRAVGERNGSCFGSTEPACCRULE",
+          "precision": "0_1",
+          "value": "Enter required data "
+        },
+        {
+          "name": "DBCRAVGERNGSCFGSTEPDESC",
+          "precision": "0_1",
+          "value": "Enter required data "
+        },
+        {
+          "name": "DBCRAVGERNGSCFGSTEPID",
+          "precision": "0_1",
+          "value": "Enter required data "
+        },
+        {
+          "name": "DBCRAVGERNGSCFGSTEPNAME",
+          "precision": "0_1",
+          "value": "Enter required data "
+        },
+        {
+          "name": "DBCovdCompActTaxWagDate",
+          "precision": "0_1",
+          "value": "Enter required data "
+        },
+        {
+          "name": "DBCovdCompConfigIdent",
+          "precision": "0_1",
+          "value": "Enter required data "
+        },
+        {
+          "name": "DBCovdCompDescription",
+          "precision": "0_1",
+          "value": "Enter required data "
+        },
+        {
+          "name": "DBCovdCompName",
+          "precision": "0_1",
+          "value": "Enter required data "
+        },
+        {
+          "name": "DBESDefSel",
+          "precision": "0_1",
+          "value": "Enter required data "
+        },
+        {
+          "name": "DBFAFCAD",
+          "precision": "0_1",
+          "value": "Enter required data "
+        },
+        {
+          "name": "DBFAFCFAACM",
+          "precision": "0_1",
+          "value": "Enter required data "
+        },
+        {
+          "name": "DBFAFCFABCD",
+          "precision": "0_1",
+          "value": "Enter required data "
+        },
+        {
+          "name": "DBFAFCFACF",
+          "precision": "0_1",
+          "value": "Enter required data "
+        },
+        {
+          "name": "DBFAFCFALOOK",
+          "precision": "0_1",
+          "value": "Enter required data "
+        },
+        {
+          "name": "DBFAFCFAPFC",
+          "precision": "0_1",
+          "value": "Enter required data "
+        },
+        {
+          "name": "DBFAFCFID",
+          "precision": "0_1",
+          "value": "Enter required data "
+        },
+        {
+          "name": "DBFFCFFIE",
+          "precision": "0_1",
+          "value": "Enter required data "
+        },
+        {
+          "name": "DBFFCFFIEAMC",
+          "precision": "0_1",
+          "value": "Enter required data "
+        },
+        {
+          "name": "DBFFCFFSCFSI",
+          "precision": "0_1",
+          "value": "Enter required data "
+        },
+        {
+          "name": "DBFFCFFSOOS",
+          "precision": "0_1",
+          "value": "Enter required data "
+        },
+        {
+          "name": "DBFFCFSFDT",
+          "precision": "0_1",
+          "value": "Enter required data "
+        },
+        {
+          "name": "DBPIAConfigIdent",
+          "precision": "0_1",
+          "value": "Enter required data "
+        },
+        ss
+        07:33
+        {
+          "name": "DBPIADescription",
+          "precision": "0_1",
+          "value": "Enter required data "
+        },
+        {
+          "name": "DBPIAEarnSet",
+          "precision": "0_1",
+          "value": "Enter required data "
+        },
+        {
+          "name": "DBPIALawYear",
+          "precision": "0_1",
+          "value": "Enter required data "
+        },
+        {
+          "name": "DBPIAName",
+          "precision": "0_1",
+          "value": "Enter required data "
+        },
+        {
+          "name": "DBRASDAD",
+          "precision": "0_1",
+          "value": "Enter required data "
+        },
+        {
+          "name": "DBRASDE",
+          "precision": "0_1",
+          "value": "Enter required data "
+        },
+        {
+          "name": "DBRASDIRC",
+          "precision": "0_1",
+          "value": "Enter required data "
+        },
+        {
+          "name": "DBRASDLSD",
+          "precision": "0_1",
+          "value": "Enter required data "
+        },
+        {
+          "name": "DBRASDPLAN",
+          "precision": "0_1",
+          "value": "Enter required data "
+        },
+        {
+          "name": "DBRLDRPCNDTESEL",
+          "precision": "0_1",
+          "value": "Enter required data "
+        },
+        {
+          "name": "DBSBN",
+          "precision": "0_1",
+          "value": "Enter required data "
+        },
+        {
+          "name": "DBSBN",
+          "precision": "0_2",
+          "value": "Enter required data "
+        },
+        {
+          "name": "DBSCD",
+          "precision": "0_1",
+          "value": "Enter required data "
+        },
+        {
+          "name": "DBSCD",
+          "precision": "0_2",
+          "value": "Enter required data "
+        },
+        {
+          "name": "DBSCID",
+          "precision": "0_1",
+          "value": "Enter required data "
+        },
+        {
+          "name": "DBSCID",
+          "precision": "0_2",
+          "value": "Enter required data "
+        },
+        {
+          "name": "DBSNRD",
+          "precision": "0_1",
+          "value": "Enter required data "
+        },
+        {
+          "name": "DBSNRD",
+          "precision": "0_2",
+          "value": "Enter required data "
+        },
+        {
+          "name": "DBSRAB",
+          "precision": "1_2",
+          "value": "Minimum selection not met 1"
+        },
+        {
+          "name": "DBSRAB",
+          "precision": "2_1",
+          "value": "Minimum selection not met 1"
+        },
+        {
+          "name": "DBSRCB",
+          "precision": "1_1",
+          "value": "Minimum selection not met 1"
+        },
+        {
+          "name": "DBSRCB",
+          "precision": "2_2",
+          "value": "Minimum selection not met 1"
+        },
+        {
+          "name": "DMDRCDRCDFRHPFRT",
+          "precision": "0_1",
+          "value": "Enter required data "
+        },
+        {
+          "name": "DMDRCDRDESC",
+          "precision": "0_1",
+          "value": "Enter required data "
+        },
+        {
+          "name": "DMDRCDRDLR",
+          "precision": "0_1",
+          "value": "Enter required data "
+        },
+        {
+          "name": "DMDRCDREDLV",
+          "precision": "0_1",
+          "value": "Enter required data "
+        },
+        {
+          "name": "DMDRCDRID",
+          "precision": "0_1",
+          "value": "Enter required data "
+        },
+        {
+          "name": "DMDRCDRNAME",
+          "precision": "0_1",
+          "value": "Enter required data "
+        }
+      ],
+      "priority": "High",
+      "severity": "Warning",
+      "text": "The following Nodes/Attributes failed against Completion Rule"
+    }
+  ],
+  "dataMap": {
+    "DBRLDRAGDOT": [
+      {
+        "code": "DBRLDRAGDOT",
+        "oid": 1,
+        "parentCode": "DBRLDRAG",
+        "pid": 1,
+        "value": true
+      },
+      {
+        "code": "DBRLDRAGDOT",
+        "oid": 2,
+        "parentCode": "DBRLDRAG",
+        "pid": 2,
+        "value": true
+      }
+    ],
+    "DBPPIEPRuleInEligible": [
+      {
+        "code": "DBPPIEPRuleInEligible",
+        "oid": 1,
+        "parentCode": "DBPPIEPRule",
+        "pid": 2,
+        "value": true
+      }
+    ],
+    "DBCDCDBSSO": [
+      {
+        "code": "DBCDCDBSSO",
+        "oid": 1,
+        "parentCode": "DBCDCDBS",
+        "pid": 1,
+        "value": "7"
+      }
+    ],
+    "DBRLDRID": [
+      {
+        "code": "DBRLDRID",
+        "oid": 1,
+        "parentCode": "DBRLDRDEF",
+        "pid": 1,
+        "value": "DateRule1"
+      },
+      {
+        "code": "DBRLDRID",
+        "oid": 2,
+        "parentCode": "DBRLDRDEF",
+        "pid": 2,
+        "value": "DateRule2"
+      }
+    ],
+    "DBDADTDAGENM": [
+      {
+        "code": "DBDADTDAGENM",
+        "oid": 4,
+        "parentCode": "DBDADTDAGEDEF",
+        "pid": 2,
+        "value": "xyz0011001NRD"
+      },
+      {
+        "code": "DBDADTDAGENM",
+        "oid": 3,
+        "parentCode": "DBDADTDAGEDEF",
+        "pid": 3,
+        "value": "xyz0011001ECD"
+      },
+      {
+        "code": "DBDADTDAGENM",
+        "oid": 1,
+        "parentCode": "DBDADTDAGEDEF",
+        "pid": 4,
+        "value": "abc0011001PVVB"
+      },
+      {
+        "code": "DBDADTDAGENM",
+        "oid": 2,
+        "parentCode": "DBDADTDAGEDEF",
+        "pid": 1,
+        "value": "abc0010001BCD"
+      }
+    ],
+    "DBCCCCCCSCSON": [
+      {
+        "code": "DBCCCCCCSCSON",
+        "oid": 2,
+        "parentCode": "DBCCCCCCSC",
+        "pid": 2,
+        "value": "2"
+      },
+      {
+        "code": "DBCCCCCCSCSON",
+        "oid": 1,
+        "parentCode": "DBCCCCCCSC",
+        "pid": 1,
+        "value": "1"
+      }
+    ],
+    "DBPRDCED": [
+      {
+        "code": "DBPRDCED",
+        "oid": 1,
+        "parentCode": "DBPRDBPRDB",
+        "pid": 1,
+        "referenceList": [
+          {
+            "code": "DBDADTDAGEDEF",
+            "referenceIdList": [
+              3
+            ]
+          }
+        ],
+        "value": true
+      }
+    ],
+    "DBPIAConfigSetup": [
+      {
+        "code": "DBPIAConfigSetup",
+        "oid": 1,
+        "parentCode": "DBPIAConfig",
+        "pid": 1,
+        "value": true
+      }
+    ],
+    "DBFAESCFGFAELMTMETHODALL": [
+      {
+        "code": "DBFAESCFGFAELMTMETHODALL",
+        "oid": 1,
+        "parentCode": "DBFAESCFGFAELMTMETHOD",
+        "pid": 1,
+        "value": true
+      }
+    ],
+    "DBCLS": [
+      {
+        "code": "DBCLS",
+        "oid": 1,
+        "parentCode": "DB",
+        "pid": 1,
+        "value": true
+      }
+    ],
+    "DBCDCDCDSO": [
+      {
+        "code": "DBCDCDCDSO",
+        "oid": 1,
+        "parentCode": "DBCDCDCD",
+        "pid": 1,
+        "value": "24"
+      }
+    ],
+    "DBRLDR": [
+      {
+        "code": "DBRLDR",
+        "oid": 1,
+        "parentCode": "DBDA",
+        "pid": 1,
+        "value": true
+      }
+    ],
+    "DBPPIEPRuleClient": [
+      {
+        "code": "DBPPIEPRuleClient",
+        "oid": 1,
+        "parentCode": "DBPPIEPRule",
+        "pid": 1,
+        "value": true
+      }
+    ],
+    "DBDADTDAGEDEF": [
+      {
+        "code": "DBDADTDAGEDEF",
+        "oid": 1,
+        "parentCode": "DBDADTDAGE",
+        "pid": 1,
+        "value": true
+      },
+      {
+        "code": "DBDADTDAGEDEF",
+        "oid": 4,
+        "parentCode": "DBDADTDAGE",
+        "pid": 1,
+        "value": true
+      },
+      {
+        "code": "DBDADTDAGEDEF",
+        "oid": 2,
+        "parentCode": "DBDADTDAGE",
+        "pid": 1,
+        "value": true
+      },
+      {
+        "code": "DBDADTDAGEDEF",
+        "oid": 3,
+        "parentCode": "DBDADTDAGE",
+        "pid": 1,
+        "value": true
+      }
+    ],
+    "DBPIACOLAProjctPercetgPreTerm": [
+      {
+        "code": "DBPIACOLAProjctPercetgPreTerm",
+        "oid": 1,
+        "parentCode": "DBPIAConfigSetup",
+        "pid": 1,
+        "value": "0.0000"
+      }
+    ],
+    "DBSAVBZ": [
+      {
+        "code": "DBSAVBZ",
+        "oid": 1,
+        "parentCode": "DBSCB",
+        "pid": 1,
+        "value": true
+      },
+      {
+        "code": "DBSAVBZ",
+        "oid": 2,
+        "parentCode": "DBSCB",
+        "pid": 2,
+        "value": true
+      }
+    ],
+    "DBCRAVGACCCFGSTEPDIVNUM": [
+      {
+        "code": "DBCRAVGACCCFGSTEPDIVNUM",
+        "oid": 1,
+        "parentCode": "DBCRAVGACCCFGSTEP",
+        "pid": 1,
+        "value": "1"
+      }
+    ],

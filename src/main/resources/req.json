@@ -1,0 +1,34 @@
+"DBCLSID": [
+{
+"code": "DBCLSID",
+"oid": 1,
+"parentCode": "DBCLSDEF",
+"pid": 1,
+"value": "sid"
+},
+{
+"code": "DBCLSID",
+"oid": 2,
+"parentCode": "DBCLSDEF",
+"pid": 2,
+"value": "sid"
+}
+],
+ss
+07:30
+DBCLSVAL
+"DBCLSVAL": [
+{
+"code": "DBCLSVAL",
+"oid": 2,
+"parentCode": "DBCLSDEF",
+"pid": 2,
+"value": "1"
+},
+{
+"code": "DBCLSVAL",
+"oid": 1,
+"parentCode": "DBCLSDEF",
+"pid": 1,
+"value": "1"
+}
