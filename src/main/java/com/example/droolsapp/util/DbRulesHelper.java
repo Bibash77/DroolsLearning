@@ -135,41 +135,33 @@ public final class DbRulesHelper {
         List<CatalogElement> valueElements = model.getDataMap().get(CLASSIFICATION_VALUE_CODE);
 
         if (idElements == null || valueElements == null) {
-            LOGGER.info("DBCLSID or DBCLSVAL elements not found");
+            LOGGER.info("DBCLSID or DBCLSVAL elements not found in data map");
             return validationResults;
         }
 
-        // Map parentId → Classification ID and Value
-        Map<Long, String> idMap = new HashMap<>();
         for (CatalogElement idElem : idElements) {
-            String value = Objects.toString(idElem.getValue(), "").trim();
-            if (!value.isEmpty()) {
-                idMap.put(idElem.getPid(), value);
-            }
-        }
+            Long parentId = idElem.getPid();
+            if (parentId == null) continue;
 
-        Map<Long, String> valueMap = new HashMap<>();
-        for (CatalogElement valElem : valueElements) {
-            String value = Objects.toString(valElem.getValue(), "").trim();
-            if (!value.isEmpty()) {
-                valueMap.put(valElem.getPid(), value);
-            }
-        }
+            String idVal = Objects.toString(idElem.getValue(), "").trim();
+            String valVal = "";
 
-        // Combine and check uniqueness
-        for (Long parentId : idMap.keySet()) {
-            String idVal = idMap.get(parentId);
-            String valVal = valueMap.getOrDefault(parentId, "");
-            if (idVal.isEmpty() && valVal.isEmpty()) {
-                continue;
+            // Find the matching Classification Value element with same parentId
+            for (CatalogElement valElem : valueElements) {
+                if (Objects.equals(valElem.getPid(), parentId)) {
+                    valVal = Objects.toString(valElem.getValue(), "").trim();
+                    break;
+                }
             }
+
+            if (idVal.isEmpty() && valVal.isEmpty()) continue;
 
             String combinationKey = idVal + "|" + valVal;
 
             if (combinationTracker.containsKey(combinationKey)) {
                 validationResults.add(new RuleResponse(
-                        "DBCLSDEF",
-                        null,
+                        idElem.getCode(),
+                        idElem.getOid(),
                         parentId,
                         DUPLICATE_CLASSIFICATION_COMBINATION_MESSAGE
                 ));
@@ -180,6 +172,7 @@ public final class DbRulesHelper {
 
         LOGGER.info("Time taken for Unique Classification Combination Rule: {} ms",
                 (System.currentTimeMillis() - startTime));
+
         return validationResults;
     }
 }
