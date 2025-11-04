@@ -1,0 +1,7 @@
+rule "Rule 0008: Step order values must be globally unique"
+    when
+        $response: RuleResponseContainer()
+        $violations: List() from collect (RuleResponse() from DbRulesHelper.validateUniqueStepOrderValues(model))
+    then
+        $response.updateResults($violations);
+end

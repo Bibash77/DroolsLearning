@@ -175,4 +175,44 @@ public final class DbRulesHelper {
 
         return validationResults;
     }
+
+
+    public static List<RuleResponse> validateUniqueStepOrderValues(PlanDataModel model) {
+        long startTime = System.currentTimeMillis();
+        List<RuleResponse> validationResults = new ArrayList<>();
+
+        // 🔹 Define all the step order keys to check
+        List<String> stepOrderKeys = Arrays.asList(
+                "DBCDCDMSO",
+                "DBCDCDRPSO"
+                // add other step order keys here...
+        );
+
+        Set<String> seenValues = new HashSet<>();
+
+        for (String key : stepOrderKeys) {
+            List<CatalogElement> elements = model.getDataMap().get(key);
+            if (elements == null) continue;
+
+            for (CatalogElement elem : elements) {
+                String val = Objects.toString(elem.getValue(), "").trim();
+                if (val.isEmpty()) continue;
+
+                if (!seenValues.add(val)) {
+                    validationResults.add(new RuleResponse(
+                            elem.getCode(),
+                            elem.getOid(),
+                            elem.getPid(),
+                            String.format("Duplicate step order value '%s' found", val)
+                    ));
+                }
+            }
+        }
+
+        LOGGER.info("Time taken for Global Unique Step Order Validation: {} ms",
+                (System.currentTimeMillis() - startTime));
+        return validationResults;
+    }
+
+
 }
