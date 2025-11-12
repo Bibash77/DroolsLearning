@@ -1,0 +1,32 @@
+DBFAESCFGFAELBPERNUM---------lookback period number
+"DBFAESCFGFAELBPERNUM": [
+{
+"code": "DBFAESCFGFAELBPERNUM",
+"oid": 1,
+"parentCode": "DBFAESCFGFAENUMORDATE",
+"pid": 1,
+"value": "5"
+}
+],
+
+
+
+Choose a Start Date for Lookback Period
+
+{
+"code": "DBDADTDAGEID",
+"oid": 3,
+"parentCode": "DBDADTDAGEDEF",
+"pid": 1,
+"value": "abc0010001BCD"
+},
+
+
+Choose a End Date for Lookback Period
+{
+"code": "DBDADTDAGENM",
+"oid": 3,
+"parentCode": "DBDADTDAGEDEF",
+"pid": 3,
+"value": "xyz0011001ECD"
+},

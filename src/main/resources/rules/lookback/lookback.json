@@ -1,0 +1,3016 @@
+Lookback Period Number or Custom Start/End Date should be used at a time, but not both.
+
+ss
+23:00
+{
+"apiMessageList": [
+{
+"category": "System",
+"id": "SM0001",
+"parameters": [
+{
+"name": "DBSCB",
+"precision": "1_1",
+"value": "Each Combination of 'Description', 'Identifier', and 'Name' should be unique"
+},
+{
+"name": "DBSCB",
+"precision": "2_1",
+"value": "Each Combination of 'Description', 'Identifier', and 'Name' should be unique"
+}
+],
+"priority": "High",
+"severity": "Error",
+"text": "The following Nodes/Attributes failed against Data Validation"
+},
+{
+"category": "System",
+"id": "SM0002",
+"parameters": [
+{
+"name": "DBACCBS",
+"precision": "0_1",
+"value": "Enter required data "
+},
+{
+"name": "DBACCCFSAS",
+"precision": "0_1",
+"value": "Enter required data "
+},
+{
+"name": "DBACCI",
+"precision": "0_1",
+"value": "Enter required data "
+},
+{
+"name": "DBACD",
+"precision": "0_1",
+"value": "Enter required data "
+},
+{
+"name": "DBACED",
+"precision": "0_1",
+"value": "Enter required data "
+},
+{
+"name": "DBACICR",
+"precision": "0_1",
+"value": "Enter required data "
+},
+{
+"name": "DBACN",
+"precision": "0_1",
+"value": "Enter required data "
+},
+{
+"name": "DBACNAME",
+"precision": "0_1",
+"value": "Enter required data "
+},
+{
+"name": "DBACRCI",
+"precision": "0_1",
+"value": "Enter required data "
+},
+{
+"name": "DBACRD",
+"precision": "0_1",
+"value": "Enter required data "
+},
+{
+"name": "DBACRN",
+"precision": "0_1",
+"value": "Enter required data "
+},
+{
+"name": "DBCCCCCCSCDTC",
+"precision": "0_1",
+"value": "Enter required data "
+},
+{
+"name": "DBCCCCCCSCDTC",
+"precision": "0_2",
+"value": "Enter required data "
+},
+{
+"name": "DBCCCCCDESC",
+"precision": "0_1",
+"value": "Enter required data "
+},
+{
+"name": "DBCCCCCID",
+"precision": "0_1",
+"value": "Enter required data "
+},
+{
+"name": "DBCRAVGACCCFGDESC",
+"precision": "0_1",
+"value": "Enter required data "
+},
+{
+"name": "DBCRAVGACCCFGID",
+"precision": "0_1",
+"value": "Enter required data "
+},
+{
+"name": "DBCRAVGACCCFGNAME",
+"precision": "0_1",
+"value": "Enter required data "
+},
+{
+"name": "DBCRAVGACCCFGSTEPBENMULYFIXVAL",
+"precision": "0_1",
+"value": "Enter required data "
+},
+{
+"name": "DBCRAVGACCCFGSTEPESET",
+"precision": "0_1",
+"value": "Enter required data "
+},
+{
+"name": "DBCRAVGACCCFGSTEPID",
+"precision": "0_1",
+"value": "Enter required data "
+},
+{
+"name": "DBCRAVGACCCFGSTEPNAME",
+"precision": "0_1",
+"value": "Enter required data "
+},
+{
+"name": "DBCRAVGACCCFGSTEPNUM",
+"precision": "0_1",
+"value": "Enter required data "
+},
+{
+"name": "DBCRAVGERNGSCFGSTEPACCRULE",
+"precision": "0_1",
+"value": "Enter required data "
+},
+{
+"name": "DBCRAVGERNGSCFGSTEPDESC",
+"precision": "0_1",
+"value": "Enter required data "
+},
+{
+"name": "DBCRAVGERNGSCFGSTEPID",
+"precision": "0_1",
+"value": "Enter required data "
+},
+{
+"name": "DBCRAVGERNGSCFGSTEPNAME",
+"precision": "0_1",
+"value": "Enter required data "
+},
+{
+"name": "DBCovdCompActTaxWagDate",
+"precision": "0_1",
+"value": "Enter required data "
+},
+{
+"name": "DBCovdCompConfigIdent",
+"precision": "0_1",
+"value": "Enter required data "
+},
+{
+"name": "DBCovdCompDescription",
+"precision": "0_1",
+"value": "Enter required data "
+},
+{
+"name": "DBCovdCompName",
+"precision": "0_1",
+"value": "Enter required data "
+},
+{
+"name": "DBESAddStepID",
+"precision": "0_2",
+"value": "Enter required data "
+},
+{
+"name": "DBESAddStepList",
+"precision": "1_1",
+"value": "Minimum selection not met 1"
+},
+{
+"name": "DBESAddStepList",
+"precision": "2_2",
+"value": "Minimum selection not met 1"
+},
+{
+"name": "DBESAddStepName",
+"precision": "0_2",
+"value": "Enter required data "
+},
+{
+"name": "DBFAFCAD",
+"precision": "0_1",
+"value": "Enter required data "
+},
+{
+"name": "DBFAFCFAACM",
+"precision": "0_1",
+"value": "Enter required data "
+},
+{
+"name": "DBFAFCFABCD",
+"precision": "0_1",
+"value": "Enter required data "
+},
+{
+"name": "DBFAFCFACF",
+"precision": "0_1",
+"value": "Enter required data "
+},
+{
+"name": "DBFAFCFALOOK",
+"precision": "0_1",
+"value": "Enter required data "
+},
+{
+"name": "DBFAFCFAPFC",
+"precision": "0_1",
+"value": "Enter required data "
+},
+{
+"name": "DBFAFCFID",
+"precision": "0_1",
+"value": "Enter required data "
+},
+{
+"name": "DBFFCFFIE",
+"precision": "0_1",
+"value": "Enter required data "
+},
+{
+"name": "DBFFCFFIEAMC",
+"precision": "0_1",
+"value": "Enter required data "
+},
+{
+"name": "DBFFCFFSCFSI",
+"precision": "0_1",
+"value": "Enter required data "
+},
+{
+"name": "DBFFCFFSOOS",
+"precision": "0_1",
+"value": "Enter required data "
+},
+{
+"name": "DBFFCFSFDT",
+"precision": "0_1",
+"value": "Enter required data "
+},
+{
+"name": "DBPIAConfigIdent",
+"precision": "0_1",
+"value": "Enter required data "
+},
+{
+"name": "DBPIADescription",
+"precision": "0_1",
+"value": "Enter required data "
+},
+{
+"name": "DBPIAEarnSet",
+"precision": "0_1",
+"value": "Enter required data "
+},
+{
+"name": "DBPIALawYear",
+"precision": "0_1",
+"value": "Enter required data "
+},
+{
+"name": "DBPIAName",
+"precision": "0_1",
+"value": "Enter required data "
+},
+{
+"name": "DBRASDAD",
+"precision": "0_1",
+"value": "Enter required data "
+},
+{
+"name": "DBRASDE",
+"precision": "0_1",
+"value": "Enter required data "
+},
+{
+"name": "DBRASDIRC",
+"precision": "0_1",
+"value": "Enter required data "
+},
+{
+"name": "DBRASDLSD",
+"precision": "0_1",
+"value": "Enter required data "
+},
+{
+"name": "DBRASDPLAN",
+"precision": "0_1",
+"value": "Enter required data "
+},
+{
+"name": "DBRLDRPCNDTESEL",
+"precision": "0_1",
+"value": "Enter required data "
+},
+{
+"name": "DBSBN",
+"precision": "0_1",
+"value": "Enter required data "
+},
+{
+"name": "DBSBN",
+"precision": "0_2",
+"value": "Enter required data "
+},
+{
+"name": "DBSCD",
+"precision": "0_1",
+"value": "Enter required data "
+},
+{
+"name": "DBSCD",
+"precision": "0_2",
+"value": "Enter required data "
+},
+{
+"name": "DBSCID",
+"precision": "0_1",
+"value": "Enter required data "
+},
+{
+"name": "DBSCID",
+"precision": "0_2",
+"value": "Enter required data "
+},
+{
+"name": "DBSNRD",
+"precision": "0_1",
+"value": "Enter required data "
+},
+{
+"name": "DBSNRD",
+"precision": "0_2",
+"value": "Enter required data "
+},
+{
+"name": "DBSRAB",
+"precision": "1_2",
+"value": "Minimum selection not met 1"
+},
+{
+"name": "DBSRAB",
+"precision": "2_1",
+"value": "Minimum selection not met 1"
+},
+{
+"name": "DBSRCB",
+"precision": "1_1",
+"value": "Minimum selection not met 1"
+},
+{
+"name": "DBSRCB",
+"precision": "2_2",
+"value": "Minimum selection not met 1"
+},
+{
+"name": "DBSRVADDSTPTYPE",
+"precision": "1_1",
+"value": "Minimum selection not met 1"
+},
+{
+"name": "DBSRVADDSTPTYPE",
+"precision": "2_2",
+"value": "Minimum selection not met 1"
+},
+{
+"name": "DMDRCDRCDFRHPFRT",
+"precision": "0_1",
+"value": "Enter required data "
+},
+{
+"name": "DMDRCDRDESC",
+"precision": "0_1",
+"value": "Enter required data "
+},
+{
+"name": "DMDRCDRDLR",
+"precision": "0_1",
+"value": "Enter required data "
+},
+{
+"name": "DMDRCDREDLV",
+"precision": "0_1",
+"value": "Enter required data "
+},
+{
+"name": "DMDRCDRID",
+"precision": "0_1",
+"value": "Enter required data "
+},
+{
+"name": "DMDRCDRNAME",
+"precision": "0_1",
+"value": "Enter required data "
+}
+],
+"priority": "High",
+"severity": "Warning",
+"text": "The following Nodes/Attributes failed against Completion Rule"
+}
+],
+"dataMap": {
+"DBRLDRAGDOT": [
+{
+"code": "DBRLDRAGDOT",
+"oid": 1,
+"parentCode": "DBRLDRAG",
+"pid": 1,
+"value": true
+},
+{
+"code": "DBRLDRAGDOT",
+"oid": 2,
+"parentCode": "DBRLDRAG",
+"pid": 2,
+"value": true
+}
+],
+"DBPPIEPRuleInEligible": [
+{
+"code": "DBPPIEPRuleInEligible",
+"oid": 1,
+"parentCode": "DBPPIEPRule",
+"pid": 2,
+"value": true
+}
+],
+"DBCDCDBSSO": [
+{
+"code": "DBCDCDBSSO",
+
+ss
+23:01
+"oid": 1,
+"parentCode": "DBCDCDBS",
+"pid": 1,
+"value": "7"
+}
+],
+"DBRLDRID": [
+{
+"code": "DBRLDRID",
+"oid": 1,
+"parentCode": "DBRLDRDEF",
+"pid": 1,
+"value": "DateRule1"
+},
+{
+"code": "DBRLDRID",
+"oid": 2,
+"parentCode": "DBRLDRDEF",
+"pid": 2,
+"value": "DateRule2"
+}
+],
+"DBDADTDAGENM": [
+{
+"code": "DBDADTDAGENM",
+"oid": 4,
+"parentCode": "DBDADTDAGEDEF",
+"pid": 2,
+"value": "xyz0011001NRD"
+},
+{
+"code": "DBDADTDAGENM",
+"oid": 3,
+"parentCode": "DBDADTDAGEDEF",
+"pid": 3,
+"value": "xyz0011001ECD"
+},
+{
+"code": "DBDADTDAGENM",
+"oid": 1,
+"parentCode": "DBDADTDAGEDEF",
+"pid": 4,
+"value": "abc0011001PVVB"
+},
+{
+"code": "DBDADTDAGENM",
+"oid": 2,
+"parentCode": "DBDADTDAGEDEF",
+"pid": 1,
+"value": "abc0010001BCD"
+}
+],
+"DBCCCCCCSCSON": [
+{
+"code": "DBCCCCCCSCSON",
+"oid": 2,
+"parentCode": "DBCCCCCCSC",
+"pid": 2,
+"value": "2"
+},
+{
+"code": "DBCCCCCCSCSON",
+"oid": 1,
+"parentCode": "DBCCCCCCSC",
+"pid": 1,
+"value": "1"
+}
+],
+"DBPRDCED": [
+{
+"code": "DBPRDCED",
+"oid": 1,
+"parentCode": "DBPRDBPRDB",
+"pid": 1,
+"referenceList": [
+{
+"code": "DBDADTDAGEDEF",
+"referenceIdList": [
+3
+]
+}
+],
+"value": true
+}
+],
+"DBPIAConfigSetup": [
+{
+"code": "DBPIAConfigSetup",
+"oid": 1,
+"parentCode": "DBPIAConfig",
+"pid": 1,
+"value": true
+}
+],
+"DBFAESCFGFAELMTMETHODALL": [
+{
+"code": "DBFAESCFGFAELMTMETHODALL",
+"oid": 1,
+"parentCode": "DBFAESCFGFAELMTMETHOD",
+"pid": 1,
+"value": true
+}
+],
+"DBCLS": [
+{
+"code": "DBCLS",
+"oid": 1,
+"parentCode": "DB",
+"pid": 1,
+"value": true
+}
+],
+"DBCDCDCDSO": [
+{
+"code": "DBCDCDCDSO",
+"oid": 1,
+"parentCode": "DBCDCDCD",
+"pid": 1,
+"value": "24"
+}
+],
+"DBRLDR": [
+{
+"code": "DBRLDR",
+"oid": 1,
+"parentCode": "DBDA",
+"pid": 1,
+"value": true
+}
+],
+"DBPPIEPRuleClient": [
+{
+"code": "DBPPIEPRuleClient",
+"oid": 1,
+"parentCode": "DBPPIEPRule",
+"pid": 1,
+"value": true
+}
+],
+"DBDADTDAGEDEF": [
+{
+"code": "DBDADTDAGEDEF",
+"oid": 1,
+"parentCode": "DBDADTDAGE",
+"pid": 1,
+"value": true
+},
+{
+"code": "DBDADTDAGEDEF",
+"oid": 4,
+"parentCode": "DBDADTDAGE",
+"pid": 1,
+"value": true
+},
+{
+"code": "DBDADTDAGEDEF",
+"oid": 2,
+"parentCode": "DBDADTDAGE",
+"pid": 1,
+"value": true
+},
+{
+"code": "DBDADTDAGEDEF",
+"oid": 3,
+"parentCode": "DBDADTDAGE",
+"pid": 1,
+"value": true
+}
+],
+"DBPIACOLAProjctPercetgPreTerm": [
+{
+"code": "DBPIACOLAProjctPercetgPreTerm",
+"oid": 1,
+"parentCode": "DBPIAConfigSetup",
+"pid": 1,
+"value": "0.0000"
+}
+],
+"DBSAVBZ": [
+{
+"code": "DBSAVBZ",
+"oid": 1,
+"parentCode": "DBSCB",
+"pid": 1,
+"value": true
+},
+{
+"code": "DBSAVBZ",
+"oid": 2,
+"parentCode": "DBSCB",
+"pid": 2,
+"value": true
+}
+],
+"DBCRAVGACCCFGSTEPDIVNUM": [
+{
+"code": "DBCRAVGACCCFGSTEPDIVNUM",
+"oid": 1,
+"parentCode": "DBCRAVGACCCFGSTEP",
+"pid": 1,
+"value": "1"
+}
+],
+"DBPPIManCashoutCallTypeModAB": [
+{
+"code": "DBPPIManCashoutCallTypeModAB",
+"oid": 1,
+"parentCode": "DBPPIManCashoutCallType",
+"pid": 1,
+"value": true
+}
+],
+"DBPPISampleDatesEURD": [
+{
+"code": "DBPPISampleDatesEURD",
+"oid": 2,
+"parentCode": "DBPPISampleDates",
+"pid": 1,
+"value": true
+},
+{
+"code": "DBPPISampleDatesEURD",
+"oid": 1,
+"parentCode": "DBPPISampleDates",
+"pid": 3,
+"value": true
+}
+],
+"DMDRCDRCDFRHP": [
+{
+"code": "DMDRCDRCDFRHP",
+"oid": 1,
+"parentCode": "DMDRCDRCDFR",
+"pid": 1,
+"value": true
+}
+],
+"DBDADTDAGEDCRCLT": [
+{
+"code": "DBDADTDAGEDCRCLT",
+"oid": 1,
+"parentCode": "DBDADTDAGEDCR",
+"pid": 4,
+"value": true
+}
+],
+"DBDADTDAGEDCR": [
+{
+"code": "DBDADTDAGEDCR",
+"oid": 4,
+"parentCode": "DBDADTDAGEDEF",
+"pid": 3,
+"value": true
+},
+{
+"code": "DBDADTDAGEDCR",
+"oid": 3,
+"parentCode": "DBDADTDAGEDEF",
+"pid": 4,
+"value": true
+},
+{
+"code": "DBDADTDAGEDCR",
+"oid": 1,
+"parentCode": "DBDADTDAGEDEF",
+"pid": 1,
+"value": true
+},
+{
+"code": "DBDADTDAGEDCR",
+"oid": 2,
+"parentCode": "DBDADTDAGEDEF",
+"pid": 2,
+"value": true
+}
+],
+"DBESAddStepList": [
+{
+"code": "DBESAddStepList",
+"oid": 1,
+"parentCode": "DBESAddStep",
+"pid": 1,
+"value": true
+},
+{
+"code": "DBESAddStepList",
+"oid": 2,
+"parentCode": "DBESAddStep",
+"pid": 2,
+"value": true
+}
+],
+"DBESetStepConf": [
+{
+"code": "DBESetStepConf",
+"oid": 1,
+"parentCode": "DBES",
+"pid": 1,
+"value": true
+}
+],
+"DMDRCDRSDA": [
+{
+"code": "DMDRCDRSDA",
+"oid": 1,
+"parentCode": "DMDRCDR",
+"pid": 1,
+"value": {
+"listValues": [
+{
+"lovValueCode": "DMDRCDRSDACDFOP",
+"lovValue": "FOP"
+}
+]
+}
+}
+],
+"DBCCCCCCSCID": [
+{
+"code": "DBCCCCCCSCID",
+"oid": 1,
+"parentCode": "DBCCCCCCSC",
+"pid": 2,
+"value": "s2"
+},
+{
+"code": "DBCCCCCCSCID",
+"oid": 2,
+"parentCode": "DBCCCCCCSC",
+"pid": 1,
+"value": "s1"
+}
+],
+"DBFAFCFAFRV": [
+{
+"code": "DBFAFCFAFRV",
+"oid": 1,
+"parentCode": "DBFAFCFA",
+"pid": 1,
+"value": "4"
+}
+],
+"DBCDCDBSAT": [
+{
+"code": "DBCDCDBSAT",
+"oid": 1,
+"parentCode": "DBCDCDBS",
+"pid": 1,
+"value": {
+"listValues": [
+{
+"lovValueCode": "DBCDCDBSATSTHREE",
+"lovValue": "benefitStructuresTemplate3"
+}
+]
+}
+}
+],
+"DBLMTRULESCFGLMTRULPROAMTRND": [
+{
+"code": "DBLMTRULESCFGLMTRULPROAMTRND",
+"oid": 1,
+"parentCode": "DBLMTRULESCFGLMTRUL",
+"pid": 1,
+"value": "2"
+}
+],
+"DBFAESCFGFAELMTZEP": [
+{
+"code": "DBFAESCFGFAELMTZEP",
+"oid": 1,
+"parentCode": "DBFAESCFGFAE",
+"pid": 1,
+"value": true
+}
+],
+"DBCDCDERESO": [
+{
+"code": "DBCDCDERESO",
+"oid": 1,
+"parentCode": "DBCDCDERE",
+"pid": 1,
+"value": "4"
+}
+],
+"DBPRDBIPP": [
+{
+"code": "DBPRDBIPP",
+"oid": 1,
+"parentCode": "DBPRDBPRDB",
+"pid": 1,
+"value": true
+}
+],
+"DBCLSD": [
+{
+"code": "DBCLSD",
+"oid": 1,
+"parentCode": "DBCLS",
+"pid": 1,
+"value": true
+}
+],
+"DBCDCDDESAT": [
+{
+"code": "DBCDCDDESAT",
+"oid": 1,
+"parentCode": "DBCDCDDES",
+"pid": 1,
+"value": {
+"listValues": [
+{
+"lovValueCode": "DBCDCDDESATSO",
+"lovValue": "derivedEarningSetTemplate1"
+}
+]
+}
+}
+],
+"DBESAddStepName": [
+{
+"code": "DBESAddStepName",
+"oid": 1,
+"parentCode": "DBESAddStep",
+"pid": 1,
+"value": "s"
+}
+],
+"DBPRDBSTART": [
+{
+"code": "DBPRDBSTART",
+"oid": 1,
+"parentCode": "DBPRDBPRDB",
+"pid": 1,
+"value": true
+}
+],
+"DBCDCDEPSO": [
+{
+"code": "DBCDCDEPSO",
+"oid": 1,
+"parentCode": "DBCDCDEP",
+"pid": 1,
+"value": "5"
+}
+],
+"DBDADTDAGEDCRFORSEL": [
+{
+"code": "DBDADTDAGEDCRFORSEL",
+"oid": 1,
+"parentCode": "DBDADTDAGEDCRFOR",
+"pid": 1,
+"value": "formula_date_calc_rule"
+}
+],
+"DBCDCDCDAT": [
+{
+"code": "DBCDCDCDAT",
+"oid": 1,
+"parentCode": "DBCDCDCD",
+"pid": 1,
+"value": {
+"listValues": [
+{
+"lovValueCode": "DBCDCDCDATO",
+"lovValue": "calculationDetailsTemplate1"
+}
+]
+}
+}
+],
+"DBPRDBCR": [
+{
+"code": "DBPRDBCR",
+"oid": 1,
+"parentCode": "DBPRDBPRDB",
+"pid": 1,
+"value": "2.0"
+}
+],
+"DBCDCDVASO": [
+{
+"code": "DBCDCDVASO",
+"oid": 1,
+"parentCode": "DBCDCDVA",
+"pid": 1,
+"value": "27"
+}
+],
+"DBPPINum": [
+{
+"code": "DBPPINum",
+"oid": 2,
+"parentCode": "DBPPI",
+"pid": 2,
+"value": "002"
+},
+{
+"code": "DBPPINum",
+"oid": 3,
+"parentCode": "DBPPI",
+"pid": 3,
+"value": "004"
+},
+{
+"code": "DBPPINum",
+"oid": 4,
+"parentCode": "DBPPI",
+"pid": 4,
+"value": "003"
+},
+{
+"code": "DBPPINum",
+"oid": 1,
+"parentCode": "DBPPI",
+"pid": 1,
+"value": "001"
+}
+],
+"DMDRCDRCRD": [
+{
+"code": "DMDRCDRCRD",
+"oid": 1,
+"parentCode": "DMDRCDR",
+"pid": 1,
+"value": {
+"listValues": [
+{
+"lovValueCode": "DMDRCDRCRDCDOVER",
+"lovValue": "OVERWRITEACTUAL"
+}
+]
+}
+}
+],
+"DBCDCDBSC": [
+{
+"code": "DBCDCDBSC",
+"oid": 1,
+"parentCode": "DBCDCD",
+"pid": 1,
+"value": true
+}
+],
+"DBACACA": [
+{
+"code": "DBACACA",
+"oid": 1,
+"parentCode": "DBACCG",
+"pid": 1,
+"value": true
+}
+],
+"DBCDCDBSO": [
+{
+"code": "DBCDCDBSO",
+"oid": 1,
+"parentCode": "DBCDCDB",
+"pid": 1,
+"value": "6"
+}
+],
+"DBCDCDDAESO": [
+{
+"code": "DBCDCDDAESO",
+"oid": 1,
+"parentCode": "DBCDCDDAE",
+"pid": 1,
+"value": "17"
+}
+],
+"DBACCG": [
+{
+"code": "DBACCG",
+"oid": 1,
+"parentCode": "DBAC",
+"pid": 1,
+"value": true
+}
+],
+"DBRLDRPCNCLS": [
+{
+"code": "DBRLDRPCNCLS",
+"oid": 1,
+"parentCode": "DBRLDRPCN",
+"pid": 2,
+"value": true
+}
+],
+"DBCCCCC": [
+{
+"code": "DBCCCCC",
+"oid": 1,
+"parentCode": "DBCCC",
+"pid": 1,
+"value": true
+}
+],
+"DBCDCDABSO": [
+{
+"code": "DBCDCDABSO",
+"oid": 1,
+"parentCode": "DBCDCDAB",
+"pid": 1,
+"value": "22"
+}
+],
+"DBSRVNME": [
+{
+"code": "DBSRVNME",
+"oid": 1,
+"parentCode": "DBSRVDEF",
+"pid": 1,
+"value": "in"
+}
+],
+"DBFAESCFGFAEEPER": [
+{
+"code": "DBFAESCFGFAEEPER",
+"oid": 2,
+"parentCode": "DBFAESCFGFAE",
+"pid": 2,
+"value": "12"
+},
+{
+"code": "DBFAESCFGFAEEPER",
+"oid": 1,
+"parentCode": "DBFAESCFGFAE",
+"pid": 1,
+"value": "2"
+}
+],
+"DBCRAVGERNGSCFGSTEPRETERNGS": [
+{
+"code": "DBCRAVGERNGSCFGSTEPRETERNGS",
+"oid": 1,
+"parentCode": "DBCRAVGERNGSCFGSTEP",
+"pid": 1,
+"value": true
+}
+],
+"DBFAESCFGFAELMTMETHODROLLLMTS": [
+{
+"code": "DBFAESCFGFAELMTMETHODROLLLMTS",
+"oid": 1,
+"parentCode": "DBFAESCFGFAELMTMETHOD",
+"pid": 2,
+"value": true
+}
+],
+"DBBSDFBS": [
+{
+"code": "DBBSDFBS",
+"oid": 1,
+"parentCode": "DBBSDF",
+"pid": 1,
+"value": true
+},
+{
+"code": "DBBSDFBS",
+"oid": 2,
+"parentCode": "DBBSDF",
+"pid": 1,
+"value": true
+}
+],
+"DBCDCDDESSO": [
+{
+"code": "DBCDCDDESSO",
+"oid": 1,
+"parentCode": "DBCDCDDES",
+"pid": 1,
+"value": "14"
+}
+],
+"DBCLSVAL": [
+{
+"code": "DBCLSVAL",
+"oid": 2,
+"parentCode": "DBCLSDEF",
+"pid": 2,
+"value": "1"
+},
+{
+"code": "DBCLSVAL",
+"oid": 1,
+"parentCode": "DBCLSDEF",
+"pid": 1,
+"value": "1"
+}
+],
+"DBPPIManCashoutCallTypeModling": [
+{
+"code": "DBPPIManCashoutCallTypeModling",
+"oid": 1,
+"parentCode": "DBPPIManCashoutCallType",
+"pid": 1,
+"value": true
+}
+],
+"DBCRAVGERNGSCFGSTEPACCPERADJ": [
+{
+"code": "DBCRAVGERNGSCFGSTEPACCPERADJ",
+"oid": 1,
+"parentCode": "DBCRAVGERNGSCFGSTEP",
+"pid": 1,
+"value": "12"
+}
+],
+"DBCovdCompFutrTaxWagBseAmtPerct": [
+{
+"code": "DBCovdCompFutrTaxWagBseAmtPerct",
+"oid": 1,
+"parentCode": "DBCovdCompConfigSetup",
+"pid": 1,
+"value": "0.00"
+}
+],
+"DBACRTA": [
+{
+"code": "DBACRTA",
+"oid": 1,
+"parentCode": "DBACACA",
+"pid": 1,
+"value": true
+}
+],
+"DBFAESCFGFAELMTZERODOLC": [
+{
+"code": "DBFAESCFGFAELMTZERODOLC",
+"oid": 1,
+"parentCode": "DBFAESCFGFAE",
+"pid": 1,
+"value": true
+}
+],
+"DBCDCDVAAT": [
+{
+"code": "DBCDCDVAAT",
+"oid": 1,
+"parentCode": "DBCDCDVA",
+"pid": 1,
+"value": {
+"listValues": [
+{
+"lovValueCode": "DBCDCDVAATSO",
+"lovValue": "validationTemplate1"
+}
+]
+}
+
+ss
+23:03
+}
+],
+"DBDADTDAGEDES": [
+{
+"code": "DBDADTDAGEDES",
+"oid": 1,
+"parentCode": "DBDADTDAGEDEF",
+"pid": 2,
+"value": "xyz0011001NRD desc"
+},
+{
+"code": "DBDADTDAGEDES",
+"oid": 3,
+"parentCode": "DBDADTDAGEDEF",
+"pid": 1,
+"value": "CashBalance BCD desc"
+},
+{
+"code": "DBDADTDAGEDES",
+"oid": 4,
+"parentCode": "DBDADTDAGEDEF",
+"pid": 4,
+"value": "CashBalance PVVB desc"
+},
+{
+"code": "DBDADTDAGEDES",
+"oid": 2,
+"parentCode": "DBDADTDAGEDEF",
+"pid": 3,
+"value": "xyz0011001ECD desc"
+}
+],
+"DBCDCDBSPF": [
+{
+"code": "DBCDCDBSPF",
+"oid": 1,
+"parentCode": "DBCDCD",
+"pid": 1,
+"value": true
+}
+],
+"DBSRVADDSTPORD": [
+{
+"code": "DBSRVADDSTPORD",
+"oid": 1,
+"parentCode": "DBSRVADDSTPADD",
+"pid": 1,
+"value": "1"
+},
+{
+"code": "DBSRVADDSTPORD",
+"oid": 2,
+"parentCode": "DBSRVADDSTPADD",
+"pid": 2,
+"value": "1"
+}
+],
+"DBFAESCFGFAENAME": [
+{
+"code": "DBFAESCFGFAENAME",
+"oid": 2,
+"parentCode": "DBFAESCFGFAE",
+"pid": 2,
+"value": "final_avg2"
+},
+{
+"code": "DBFAESCFGFAENAME",
+"oid": 1,
+"parentCode": "DBFAESCFGFAE",
+"pid": 1,
+"value": "final_avg1"
+}
+],
+"DMDRCDRSDLV": [
+{
+"code": "DMDRCDRSDLV",
+"oid": 1,
+"parentCode": "DMDRCDR",
+"pid": 1,
+"value": true
+}
+],
+"DBCLSTPSTD": [
+{
+"code": "DBCLSTPSTD",
+"oid": 1,
+"parentCode": "DBCLSTP",
+"pid": 1,
+"value": true
+}
+],
+"DBCRAVGACCCFGSTEPILYN": [
+{
+"code": "DBCRAVGACCCFGSTEPILYN",
+"oid": 1,
+"parentCode": "DBCRAVGACCCFGSTEP",
+"pid": 1,
+"value": true
+}
+],
+"DBCDCDEPAT": [
+{
+"code": "DBCDCDEPAT",
+"oid": 1,
+"parentCode": "DBCDCDEP",
+"pid": 1,
+"value": {
+"listValues": [
+{
+"lovValueCode": "DBCDCDEPATSTWO",
+"lovValue": "EligibilityParticipationTemplate2"
+}
+]
+}
+}
+],
+"DBPRDBCSD": [
+{
+"code": "DBPRDBCSD",
+"oid": 1,
+"parentCode": "DBPRDBPRDB",
+"pid": 1,
+"referenceList": [
+{
+"code": "DBDADTDAGEDEF",
+"referenceIdList": [
+1
+]
+}
+],
+"value": true
+}
+],
+"DBFAESCFGFAEDESC": [
+{
+"code": "DBFAESCFGFAEDESC",
+"oid": 1,
+"parentCode": "DBFAESCFGFAE",
+"pid": 1,
+"value": "final_avg1 desc"
+},
+{
+"code": "DBFAESCFGFAEDESC",
+"oid": 2,
+"parentCode": "DBFAESCFGFAE",
+"pid": 2,
+"value": "final_avg2 desc"
+}
+],
+"DBPPIEPRule": [
+{
+"code": "DBPPIEPRule",
+"oid": 1,
+"parentCode": "DBPPIEP",
+"pid": 3,
+"value": true
+},
+{
+"code": "DBPPIEPRule",
+"oid": 3,
+"parentCode": "DBPPIEP",
+"pid": 1,
+"value": true
+},
+{
+"code": "DBPPIEPRule",
+"oid": 2,
+"parentCode": "DBPPIEP",
+"pid": 2,
+"value": true
+}
+],
+"DBLMTRULESCFGLMTRULCALMTHD": [
+{
+"code": "DBLMTRULESCFGLMTRULCALMTHD",
+"oid": 1,
+"parentCode": "DBLMTRULESCFGLMTRUL",
+"pid": 1,
+"value": {
+"listValues": [
+{
+"lovValueCode": "LMTRULESRCALMTHDTYPECY",
+"lovValue": "CALENDAR_YEARS"
+}
+]
+}
+}
+],
+"DBSRVADDSTPID": [
+{
+"code": "DBSRVADDSTPID",
+"oid": 1,
+"parentCode": "DBSRVADDSTPADD",
+"pid": 1,
+"value": "2"
+},
+{
+"code": "DBSRVADDSTPID",
+"oid": 2,
+"parentCode": "DBSRVADDSTPADD",
+"pid": 2,
+"value": "5"
+}
+],
+"DBFAESCFGFAELMTCEP": [
+{
+"code": "DBFAESCFGFAELMTCEP",
+"oid": 1,
+"parentCode": "DBFAESCFGFAE",
+"pid": 1,
+"value": true
+}
+],
+"DBCDCDABAT": [
+{
+"code": "DBCDCDABAT",
+"oid": 1,
+"parentCode": "DBCDCDAB",
+"pid": 1,
+"value": {
+"listValues": [
+{
+"lovValueCode": "DBCDCDABATSF",
+"lovValue": "accruedBenefitTemplate4"
+}
+]
+}
+}
+],
+"DBCLSID": [
+{
+"code": "DBCLSID",
+"oid": 1,
+"parentCode": "DBCLSDEF",
+"pid": 1,
+"value": "did"
+},
+{
+"code": "DBCLSID",
+"oid": 2,
+"parentCode": "DBCLSDEF",
+"pid": 2,
+"value": "did"
+}
+],
+"DMDRCDRSPRPSR": [
+{
+"code": "DMDRCDRSPRPSR",
+"oid": 1,
+"parentCode": "DMDRCDRSPR",
+"pid": 1,
+"value": {
+"listValues": [
+{
+"lovValueCode": "DMDRCDRSPRPSRCDIP",
+"lovValue": "IGNORE_PARTIAL"
+}
+]
+}
+}
+],
+"DB": [
+{
+"code": "DB",
+"oid": 1,
+"pid": 1,
+"value": true
+}
+],
+"DBDADTDAGEDCRFOR": [
+{
+"code": "DBDADTDAGEDCRFOR",
+"oid": 1,
+"parentCode": "DBDADTDAGEDCR",
+"pid": 2,
+"value": true
+}
+],
+"DBESConfStep": [
+{
+"code": "DBESConfStep",
+"oid": 1,
+"parentCode": "DBESDefSel",
+"pid": 1,
+"value": true
+}
+],
+"DBLMTRULESCFGLMTRULDIR": [
+{
+"code": "DBLMTRULESCFGLMTRULDIR",
+"oid": 1,
+"parentCode": "DBLMTRULESCFGLMTRUL",
+"pid": 1,
+"value": true
+}
+],
+"DBCLSDESC": [
+{
+"code": "DBCLSDESC",
+"oid": 2,
+"parentCode": "DBCLSDEF",
+"pid": 1,
+"value": "Group B01 classification"
+},
+{
+"code": "DBCLSDESC",
+"oid": 1,
+"parentCode": "DBCLSDEF",
+"pid": 2,
+"value": "plan 001 classification"
+}
+],
+"DBACSCPI": [
+{
+"code": "DBACSCPI",
+"oid": 1,
+"parentCode": "DBACACA",
+"pid": 1,
+"value": true
+}
+],
+"DBCDCDRPAT": [
+{
+"code": "DBCDCDRPAT",
+"oid": 1,
+"parentCode": "DBCDCDRP",
+"pid": 1,
+"value": {
+"listValues": [
+{
+"lovValueCode": "DBCDCDMATONE",
+"lovValue": "requestParametersTemplate1"
+}
+]
+}
+}
+],
+"DMDRCDRSPRPER": [
+{
+"code": "DMDRCDRSPRPER",
+"oid": 1,
+"parentCode": "DMDRCDRSPR",
+"pid": 1,
+"value": {
+"listValues": [
+{
+"lovValueCode": "DMDRCDRSPRPSRCDIP",
+"lovValue": "IGNORE_PARTIAL"
+}
+]
+}
+}
+],
+"DBBSDFBSDesc": [
+{
+"code": "DBBSDFBSDesc",
+"oid": 1,
+"parentCode": "DBBSDFBS",
+"pid": 2,
+"value": "benefit structure2 desc"
+},
+{
+"code": "DBBSDFBSDesc",
+"oid": 2,
+"parentCode": "DBBSDFBS",
+"pid": 1,
+"value": "benefit structure1 desc"
+}
+],
+"DBCovdCompRoundedAmt": [
+{
+"code": "DBCovdCompRoundedAmt",
+"oid": 1,
+"parentCode": "DBCovdCompConfigSetup",
+"pid": 1,
+"value": "300"
+}
+],
+"DBSPFC": [
+{
+"code": "DBSPFC",
+"oid": 2,
+"parentCode": "DBSCB",
+"pid": 2,
+"value": {
+"listValues": [
+{
+"lovValueCode": "DBFAFCFAPFCPLANTENSLA",
+"lovValue": "10"
+}
+]
+}
+},
+{
+"code": "DBSPFC",
+"oid": 1,
+"parentCode": "DBSCB",
+"pid": 1,
+"value": {
+"listValues": [
+{
+"lovValueCode": "DBFAFCFAPFCPLANTENSLA",
+"lovValue": "10"
+}
+]
+}
+}
+],
+"DBCDCDBISO": [
+{
+"code": "DBCDCDBISO",
+"oid": 1,
+"parentCode": "DBCDCDBI",
+"pid": 1,
+"value": "28"
+}
+],
+"DBPPIEPRuleFrozen": [
+{
+"code": "DBPPIEPRuleFrozen",
+"oid": 1,
+"parentCode": "DBPPIEPRule",
+"pid": 3,
+"value": true
+}
+],
+"DBCovdCompConfig": [
+{
+"code": "DBCovdCompConfig",
+"oid": 1,
+"parentCode": "DBCovdComp",
+"pid": 1,
+"value": true
+}
+],
+"DBACICRSS": [
+{
+"code": "DBACICRSS",
+"oid": 1,
+"parentCode": "DBACRCREDIT",
+"pid": 1,
+"value": true
+}
+],
+"DBBSDFBSManSrc": [
+{
+"code": "DBBSDFBSManSrc",
+"oid": 1,
+"parentCode": "DBBSDFBS",
+"pid": 1,
+"value": true
+},
+{
+"code": "DBBSDFBSManSrc",
+"oid": 2,
+"parentCode": "DBBSDFBS",
+"pid": 2,
+"value": true
+}
+],
+"DBBSDFBSName": [
+{
+"code": "DBBSDFBSName",
+"oid": 2,
+"parentCode": "DBBSDFBS",
+"pid": 1,
+"value": "benefit structure1"
+},
+{
+"code": "DBBSDFBSName",
+"oid": 1,
+"parentCode": "DBBSDFBS",
+"pid": 2,
+"value": "benefit structure2"
+}
+],
+"DBRLDRPCNDTEADD": [
+{
+"code": "DBRLDRPCNDTEADD",
+"oid": 1,
+"parentCode": "DBRLDRPCNDTE",
+"pid": 1,
+"value": {
+"listValues": [
+{
+"lovValueCode": "DBDAAGEADJCOIFOL",
+"lovValue": "ADJUST_COINCIDENT_OR_FOLLOWING"
+}
+]
+}
+}
+],
+"DBCDCDCBSO": [
+{
+"code": "DBCDCDCBSO",
+"oid": 1,
+"parentCode": "DBCDCDCB",
+"pid": 1,
+"value": "16"
+}
+],
+"DBCDCDBSCSO": [
+{
+"code": "DBCDCDBSCSO",
+"oid": 1,
+"parentCode": "DBCDCDBSC",
+"pid": 1,
+"value": "9"
+}
+],
+"DBCCCCCCSC": [
+{
+"code": "DBCCCCCCSC",
+"oid": 2,
+"parentCode": "DBCCCCC",
+"pid": 1,
+"value": true
+},
+{
+"code": "DBCCCCCCSC",
+"oid": 1,
+"parentCode": "DBCCCCC",
+"pid": 1,
+"value": true
+}
+],
+"DBPPIManCashoutCallType": [
+{
+"code": "DBPPIManCashoutCallType",
+"oid": 1,
+"parentCode": "DBPPIManCashout",
+"pid": 2,
+"value": true
+},
+{
+"code": "DBPPIManCashoutCallType",
+"oid": 2,
+"parentCode": "DBPPIManCashout",
+"pid": 1,
+"value": true
+}
+],
+"DBLMTRULESCFGLMTRULP": [
+{
+"code": "DBLMTRULESCFGLMTRULP",
+"oid": 1,
+"parentCode": "DBLMTRULESCFGLMTRUL",
+"pid": 1,
+"value": true
+}
+],
+"DBCRAVGACCAC": [
+{
+"code": "DBCRAVGACCAC",
+"oid": 1,
+"parentCode": "DBCRAVGACCCFG",
+"pid": 1,
+"value": true
+}
+],
+"DBACRC": [
+{
+"code": "DBACRC",
+"oid": 1,
+"parentCode": "DBAC",
+"pid": 1,
+"value": true
+}
+],
+"DBSRVADDSTPNM": [
+{
+"code": "DBSRVADDSTPNM",
+"oid": 1,
+"parentCode": "DBSRVADDSTPADD",
+"pid": 1,
+"value": "3"
+},
+{
+"code": "DBSRVADDSTPNM",
+"oid": 2,
+"parentCode": "DBSRVADDSTPADD",
+"pid": 2,
+"value": "6"
+}
+],
+"DBCICITRD": [
+{
+"code": "DBCICITRD",
+"oid": 1,
+"parentCode": "DBCICI",
+"pid": 1,
+"value": true
+}
+],
+"DBBSDFBSPay": [
+{
+"code": "DBBSDFBSPay",
+"oid": 1,
+"parentCode": "DBBSDFBS",
+"pid": 1,
+
+ss
+23:04
+"value": true
+}
+],
+"DBCDCDPL": [
+{
+"code": "DBCDCDPL",
+"oid": 1,
+"parentCode": "DBCDCD",
+"pid": 1,
+"value": true
+}
+],
+"DBCICISNF": [
+{
+"code": "DBCICISNF",
+"oid": 1,
+"parentCode": "DBCICI",
+"pid": 1,
+"value": {
+"listValues": [
+{
+"lovValueCode": "DBCISNFPFCCSLA10",
+"lovValue": "10"
+}
+]
+}
+}
+],
+"DBPPIEP": [
+{
+"code": "DBPPIEP",
+"oid": 3,
+"parentCode": "DBPPI",
+"pid": 4,
+"value": true
+},
+{
+"code": "DBPPIEP",
+"oid": 2,
+"parentCode": "DBPPI",
+"pid": 1,
+"value": true
+},
+{
+"code": "DBPPIEP",
+"oid": 1,
+"parentCode": "DBPPI",
+"pid": 2,
+"value": true
+}
+],
+"DMDRCDRSPR": [
+{
+"code": "DMDRCDRSPR",
+"oid": 1,
+"parentCode": "DMDRCDR",
+"pid": 1,
+"value": true
+}
+],
+"DBCRAVGERNGSCFG": [
+{
+"code": "DBCRAVGERNGSCFG",
+"oid": 1,
+"parentCode": "DBCRAVGERNGS",
+"pid": 1,
+"value": true
+}
+],
+"DBFFCFFSC": [
+{
+"code": "DBFFCFFSC",
+"oid": 1,
+"parentCode": "DBFFCF",
+"pid": 1,
+"value": true
+}
+],
+"DBSRVADDSTPADD": [
+{
+"code": "DBSRVADDSTPADD",
+"oid": 1,
+"parentCode": "DBSRVADDSTP",
+"pid": 1,
+"value": true
+},
+{
+"code": "DBSRVADDSTPADD",
+"oid": 2,
+"parentCode": "DBSRVADDSTP",
+"pid": 1,
+"value": true
+}
+],
+"DBPPIManCashoutCallTypeFinal": [
+{
+"code": "DBPPIManCashoutCallTypeFinal",
+"oid": 1,
+"parentCode": "DBPPIManCashoutCallType",
+"pid": 1,
+"value": true
+}
+],
+"DBCICIAgeRnd": [
+{
+"code": "DBCICIAgeRnd",
+"oid": 1,
+"parentCode": "DBCICI",
+"pid": 1,
+"value": "4"
+}
+],
+"DBPRDB": [
+{
+"code": "DBPRDB",
+"oid": 1,
+"parentCode": "DBS",
+"pid": 1,
+"value": true
+}
+],
+"DBPPISampleDates": [
+{
+"code": "DBPPISampleDates",
+"oid": 1,
+"parentCode": "DBPPI",
+"pid": 4,
+"value": true
+},
+{
+"code": "DBPPISampleDates",
+"oid": 3,
+"parentCode": "DBPPI",
+"pid": 3,
+"value": true
+},
+{
+"code": "DBPPISampleDates",
+"oid": 2,
+"parentCode": "DBPPI",
+"pid": 2,
+"value": true
+},
+{
+"code": "DBPPISampleDates",
+"oid": 4,
+"parentCode": "DBPPI",
+"pid": 1,
+"value": true
+}
+],
+"DBFAESCFG": [
+{
+"code": "DBFAESCFG",
+"oid": 1,
+"parentCode": "DBFAES",
+"pid": 1,
+"value": true
+}
+],
+"DBCICIAgeMth": [
+{
+"code": "DBCICIAgeMth",
+"oid": 1,
+"parentCode": "DBCICI",
+"pid": 1,
+"value": {
+"listValues": [
+{
+"lovValueCode": "DBCIACMACY",
+"lovValue": "AGE_CALENDAR_YEAR"
+}
+]
+}
+}
+],
+"DBPRDBPLAN": [
+{
+"code": "DBPRDBPLAN",
+"oid": 1,
+"parentCode": "DBPRDBPRDB",
+"pid": 1,
+"referenceList": [
+{
+"code": "DBPPI",
+"referenceIdList": [
+1
+]
+}
+],
+"value": true
+}
+],
+"DBPPIManCashoutCallTypeTermAB": [
+{
+"code": "DBPPIManCashoutCallTypeTermAB",
+"oid": 2,
+"parentCode": "DBPPIManCashoutCallType",
+"pid": 1,
+"value": true
+},
+{
+"code": "DBPPIManCashoutCallTypeTermAB",
+"oid": 1,
+"parentCode": "DBPPIManCashoutCallType",
+"pid": 2,
+"value": true
+}
+],
+"DBCLSNAME": [
+{
+"code": "DBCLSNAME",
+"oid": 2,
+"parentCode": "DBCLSDEF",
+"pid": 1,
+"value": "asa"
+},
+{
+"code": "DBCLSNAME",
+"oid": 1,
+"parentCode": "DBCLSDEF",
+"pid": 2,
+"value": "asd"
+}
+],
+"DMDRCDREDA": [
+{
+"code": "DMDRCDREDA",
+"oid": 1,
+"parentCode": "DMDRCDR",
+"pid": 1,
+"value": {
+"listValues": [
+{
+"lovValueCode": "DMDRCDREDACDEOPPRIOR",
+"lovValue": "EOPPRIOR"
+}
+]
+}
+}
+],
+"DBRLDRPCN": [
+{
+"code": "DBRLDRPCN",
+"oid": 1,
+"parentCode": "DBRLDRDEF",
+"pid": 1,
+"value": true
+},
+{
+"code": "DBRLDRPCN",
+"oid": 2,
+"parentCode": "DBRLDRDEF",
+"pid": 2,
+"value": true
+}
+],
+"DBRASDRASD": [
+{
+"code": "DBRASDRASD",
+"oid": 1,
+"parentCode": "DBRASD",
+"pid": 1,
+"value": true
+}
+],
+"DBCICIECD": [
+{
+"code": "DBCICIECD",
+"oid": 1,
+"parentCode": "DBCICI",
+"pid": 1,
+"value": true
+}
+],
+"DBCDCDCBAT": [
+{
+"code": "DBCDCDCBAT",
+"oid": 1,
+"parentCode": "DBCDCDCB",
+"pid": 1,
+"value": {
+"listValues": [
+{
+"lovValueCode": "DBCDCDCBATST",
+"lovValue": "cashBalanceTemplate2"
+}
+]
+}
+}
+],
+"DBCDCDBSCAT": [
+{
+"code": "DBCDCDBSCAT",
+"oid": 1,
+"parentCode": "DBCDCDBSC",
+"pid": 1,
+"value": {
+"listValues": [
+{
+"lovValueCode": "DBCDCDBSCATFIVED",
+"lovValue": "characteristicsTemplate5WithDescription"
+}
+]
+}
+}
+],
+"DMDRCDRESDLLCF": [
+{
+"code": "DMDRCDRESDLLCF",
+"oid": 1,
+"parentCode": "DMDRCDRESDLL",
+"pid": 1,
+"value": {
+"listValues": [
+{
+"lovValueCode": "DBCIBCDADJM",
+"lovValue": "MONTHLY"
+}
+]
+}
+}
+],
+"DBPRDBN": [
+{
+"code": "DBPRDBN",
+"oid": 1,
+"parentCode": "DBPRDBPRDB",
+"pid": 1,
+"value": "PRDB1"
+}
+],
+"DBPPIEPDes": [
+{
+"code": "DBPPIEPDes",
+"oid": 2,
+"parentCode": "DBPPIEP",
+"pid": 2,
+"value": "ep1 desc"
+},
+{
+"code": "DBPPIEPDes",
+"oid": 3,
+"parentCode": "DBPPIEP",
+"pid": 1,
+"value": "ep2 desc"
+},
+{
+"code": "DBPPIEPDes",
+"oid": 1,
+"parentCode": "DBPPIEP",
+"pid": 3,
+"value": "ep3 desc"
+}
+],
+"DBRLDRAGYR": [
+{
+"code": "DBRLDRAGYR",
+"oid": 1,
+"parentCode": "DBRLDRAG",
+"pid": 1,
+"value": "5"
+},
+{
+"code": "DBRLDRAGYR",
+"oid": 2,
+"parentCode": "DBRLDRAG",
+"pid": 2,
+"value": "10"
+}
+],
+"DBCovdCompRoundRule": [
+{
+"code": "DBCovdCompRoundRule",
+"oid": 1,
+"parentCode": "DBCovdCompConfigSetup",
+"pid": 1,
+"value": {
+"listValues": [
+{
+"lovValueCode": "DBCovdCompRoundRuleLstRndFnlNearst",
+"lovValue": "ROUND_FINAL_NEAREST"
+}
+]
+}
+}
+],
+"DBCDCDEREAT": [
+{
+"code": "DBCDCDEREAT",
+"oid": 1,
+"parentCode": "DBCDCDERE",
+"pid": 1,
+"value": {
+"listValues": [
+{
+"lovValueCode": "DBCDCDEREATSONE",
+"lovValue": "employeeRelatedEventsTemplate1"
+}
+]
+}
+}
+],
+"DBFAESCFGFAELMTZERODOLPP": [
+{
+"code": "DBFAESCFGFAELMTZERODOLPP",
+"oid": 1,
+"parentCode": "DBFAESCFGFAE",
+"pid": 1,
+"value": true
+}
+],
+"DBLMTRULESCFGLMTRULPMAXPER": [
+{
+"code": "DBLMTRULESCFGLMTRULPMAXPER",
+"oid": 1,
+"parentCode": "DBLMTRULESCFGLMTRUL",
+"pid": 1,
+"value": "2.0000"
+}
+],
+"DBCLSTP": [
+{
+"code": "DBCLSTP",
+"oid": 1,
+"parentCode": "DBCLSDEF",
+"pid": 2,
+"value": true
+},
+{
+"code": "DBCLSTP",
+"oid": 2,
+"parentCode": "DBCLSDEF",
+"pid": 1,
+"value": true
+}
+],
+"DBCDCDCCSO": [
+{
+"code": "DBCDCDCCSO",
+"oid": 1,
+"parentCode": "DBCDCDCC",
+"pid": 1,
+"value": "20"
+}
+],
+"DBPRDBD": [
+{
+"code": "DBPRDBD",
+"oid": 1,
+"parentCode": "DBPRDBPRDB",
+"pid": 1,
+"value": "PRDB1 desc"
+}
+],
+"DBPRDBCOV": [
+{
+"code": "DBPRDBCOV",
+"oid": 1,
+"parentCode": "DBPRDBPRDB",
+"pid": 1,
+"value": "1.0"
+}
+],
+"DBCDCDBIAT": [
+{
+"code": "DBCDCDBIAT",
+"oid": 1,
+"parentCode": "DBCDCDBI",
+"pid": 1,
+"value": {
+"listValues": [
+{
+"lovValueCode": "DBCDCDBIATSO",
+"lovValue": "buildInformationTemplate1"
+}
+]
+}
+}
+],
+"DBPPI": [
+{
+"code": "DBPPI",
+"oid": 1,
+"parentCode": "DBPPD",
+"pid": 1,
+"value": true
+},
+{
+"code": "DBPPI",
+"oid": 3,
+"parentCode": "DBPPD",
+"pid": 1,
+"value": true
+},
+{
+"code": "DBPPI",
+"oid": 4,
+"parentCode": "DBPPD",
+"pid": 1,
+"value": true
+},
+{
+"code": "DBPPI",
+"oid": 2,
+"parentCode": "DBPPD",
+"pid": 1,
+"value": true
+}
+],
+"DBACCFTC": [
+{
+"code": "DBACCFTC",
+"oid": 1,
+"parentCode": "DBACACA",
+"pid": 1,
+"value": {
+"listValues": [
+{
+"lovValueCode": "DBACCFTCOMY",
+"lovValue": "MONTHLY"
+}
+]
+}
+}
+],
+"DBPPD": [
+{
+"code": "DBPPD",
+"oid": 1,
+"parentCode": "DBP",
+"pid": 1,
+"value": true
+}
+],
+"DBPRDBCON": [
+{
+"code": "DBPRDBCON",
+"oid": 1,
+"parentCode": "DBPRDBPRDB",
+"pid": 1,
+"value": "condition1"
+}
+],
+"DBSRVTYPE": [
+{
+"code": "DBSRVTYPE",
+"oid": 1,
+"parentCode": "DBSRVDEF",
+"pid": 1,
+"value": {
+"listValues": [
+{
+"lovValueCode": "DBSRVTV",
+"lovValue": "V"
+}
+]
+}
+}
+],
+"DBPIAAgeToCommBeneft": [
+{
+"code": "DBPIAAgeToCommBeneft",
+"oid": 1,
+"parentCode": "DBPIAConfigSetup",
+"pid": 1,
+"value": "62"
+}
+],
+"DBEDEDESC": [
+{
+"code": "DBEDEDESC",
+"oid": 1,
+"parentCode": "DBESDef",
+"pid": 1,
+"value": "earning_set1 desc"
+}
+],
+"DBCovdCompTaxWgeBseRndRul": [
+{
+"code": "DBCovdCompTaxWgeBseRndRul",
+"oid": 1,
+"parentCode": "DBCovdCompConfigSetup",
+"pid": 1,
+"value": {
+"listValues": [
+{
+"lovValueCode": "DBCovdCompTaxWgeBseRndRulLstRndNrt",
+"lovValue": "ROUND_NEAREST"
+}
+]
+}
+}
+],
+"DBACT": [
+{
+"code": "DBACT",
+"oid": 1,
+"parentCode": "DBACACA",
+"pid": 1,
+"value": {
+"listValues": [
+{
+"lovValueCode": "DBACTOCB",
+"lovValue": "CASHBALANCE"
+}
+]
+}
+}
+],
+"DBFAESCFGFAELMTWP": [
+{
+"code": "DBFAESCFGFAELMTWP",
+"oid": 1,
+"parentCode": "DBFAESCFGFAE",
+"pid": 1,
+"value": true
+}
+],
+"DBPPIDesc": [
+{
+"code": "DBPPIDesc",
+"oid": 2,
+"parentCode": "DBPPI",
+"pid": 1,
+"value": "plan1 desc"
+},
+{
+"code": "DBPPIDesc",
+"oid": 3,
+"parentCode": "DBPPI",
+"pid": 3,
+"value": "plan4 desc"
+},
+{
+"code": "DBPPIDesc",
+"oid": 4,
+"parentCode": "DBPPI",
+"pid": 2,
+"value": "plan2 desc"
+},
+{
+"code": "DBPPIDesc",
+"oid": 1,
+"parentCode": "DBPPI",
+"pid": 4,
+"value": "plan3 desc"
+}
+],
+"DBPPIName": [
+{
+"code": "DBPPIName",
+"oid": 3,
+"parentCode": "DBPPI",
+"pid": 2,
+"value": "plan2"
+},
+{
+"code": "DBPPIName",
+"oid": 2,
+"parentCode": "DBPPI",
+"pid": 1,
+"value": "plan1"
+},
+{
+"code": "DBPPIName",
+"oid": 4,
+"parentCode": "DBPPI",
+"pid": 3,
+"value": "plan4"
+},
+{
+"code": "DBPPIName",
+"oid": 1,
+"parentCode": "DBPPI",
+"pid": 4,
+"value": "plan3"
+}
+],
+"DBACR": [
+{
+"code": "DBACR",
+"oid": 1,
+"parentCode": "DBACRC",
+"pid": 1,
+"value": true
+}
+],
+"DBFAESCFGFAELMTMETHOD": [
+{
+"code": "DBFAESCFGFAELMTMETHOD",
+"oid": 1,
+"parentCode": "DBFAESCFGFAELMT",
+"pid": 1,
+"value": true
+},
+{
+"code": "DBFAESCFGFAELMTMETHOD",
+"oid": 2,
+"parentCode": "DBFAESCFGFAELMT",
+"pid": 2,
+"value": true
+}
+],
+"DBBSDFBSFormClient": [
+{
+"code": "DBBSDFBSFormClient",
+"oid": 1,
+"parentCode": "DBBSDFBSFormType",
+"pid": 1,
+"value": true
+}
+],
+"DBRLDRPCNCLSSEL": [
+{
+"code": "DBRLDRPCNCLSSEL",
+"oid": 1,
+"parentCode": "DBRLDRPCNCLS",
+"pid": 1,
+"referenceList": [
+{
+"code": "DBCLSDEF",
+"referenceIdList": [
+2
+]
+}
+],
+"value": true
+}
+],
+"DMDR": [
+{
+"code": "DMDR",
+"oid": 1,
+"parentCode": "DB",
+"pid": 1,
+"value": true
+}
+],
+"DBSRVEND": [
+{
+"code": "DBSRVEND",
+"oid": 1,
+"parentCode": "DBSRVDEF",
+"pid": 1,
+"referenceList": [
+{
+"code": "DBDADTDAGEDEF",
+"referenceIdList": [
+1
+
+ss
+23:05
+]
+}
+],
+"value": true
+}
+],
+"DBCDCDCCAT": [
+{
+"code": "DBCDCDCCAT",
+"oid": 1,
+"parentCode": "DBCDCDCC",
+"pid": 1,
+"value": {
+"listValues": [
+{
+"lovValueCode": "DBCDCDCCATSO",
+"lovValue": "coveredCompTemplate1"
+}
+]
+}
+}
+],
+"DBBSDFBSClientNm": [
+{
+"code": "DBBSDFBSClientNm",
+"oid": 1,
+"parentCode": "DBBSDFBSFormClient",
+"pid": 1,
+"value": "source_eligibility1"
+}
+],
+"DBCICI": [
+{
+"code": "DBCICI",
+"oid": 1,
+"parentCode": "DBCI",
+"pid": 1,
+"value": true
+}
+],
+"DBBSDFBSId": [
+{
+"code": "DBBSDFBSId",
+"oid": 1,
+"parentCode": "DBBSDFBS",
+"pid": 2,
+"value": "benefit structure2"
+},
+{
+"code": "DBBSDFBSId",
+"oid": 2,
+"parentCode": "DBBSDFBS",
+"pid": 1,
+"value": "benefit structure1"
+}
+],
+"DBCRAVGERNGS": [
+{
+"code": "DBCRAVGERNGS",
+"oid": 1,
+"parentCode": "DB",
+"pid": 1,
+"value": true
+}
+],
+"DBCovdComp": [
+{
+"code": "DBCovdComp",
+"oid": 1,
+"parentCode": "DB",
+"pid": 1,
+"value": true
+}
+],
+"DBCDCDCB": [
+{
+"code": "DBCDCDCB",
+"oid": 1,
+"parentCode": "DBCDCD",
+"pid": 1,
+"value": true
+}
+],
+"DBSRVDESC": [
+{
+"code": "DBSRVDESC",
+"oid": 1,
+"parentCode": "DBSRVDEF",
+"pid": 1,
+"value": "ids"
+}
+],
+"DBSRVBNFTSTR": [
+{
+"code": "DBSRVBNFTSTR",
+"oid": 1,
+"parentCode": "DBSRVDEF",
+"pid": 1,
+"referenceList": [
+{
+"code": "DBBSDFBS",
+"referenceIdList": [
+1,
+2
+]
+}
+],
+"value": true
+}
+],
+"DBCDCDCA": [
+{
+"code": "DBCDCDCA",
+"oid": 1,
+"parentCode": "DBCDCD",
+"pid": 1,
+"value": true
+}
+],
+"DBESDef": [
+{
+"code": "DBESDef",
+"oid": 1,
+"parentCode": "DBES",
+"pid": 1,
+"value": true
+}
+],
+"DBDADTDAGEDCRSTDCB": [
+{
+"code": "DBDADTDAGEDCRSTDCB",
+"oid": 1,
+"parentCode": "DBDADTDAGEDCR",
+"pid": 3,
+"value": true
+}
+],
+"DBEDECO": [
+{
+"code": "DBEDECO",
+"oid": 1,
+"parentCode": "DBESDef",
+"pid": 1,
+"value": true
+}
+],
+"DBPPISampleDatesNRD": [
+{
+"code": "DBPPISampleDatesNRD",
+"oid": 2,
+"parentCode": "DBPPISampleDates",
+"pid": 1,
+"value": true
+},
+{
+"code": "DBPPISampleDatesNRD",
+"oid": 1,
+"parentCode": "DBPPISampleDates",
+"pid": 2,
+"value": true
+},
+{
+"code": "DBPPISampleDatesNRD",
+"oid": 3,
+"parentCode": "DBPPISampleDates",
+"pid": 3,
+"value": true
+}
+],
+"DBFAESCFGFAELBENDDATE": [
+{
+"code": "DBFAESCFGFAELBENDDATE",
+"oid": 1,
+"parentCode": "DBFAESCFGFAENUMORDATE",
+"pid": 1,
+"referenceList": [
+{
+"code": "DBDADTDAGEDEF",
+"referenceIdList": [
+3
+]
+}
+],
+"value": true
+}
+],
+"DBRLDRAG": [
+{
+"code": "DBRLDRAG",
+"oid": 2,
+"parentCode": "DBRLDRDEF",
+"pid": 1,
+"value": true
+},
+{
+"code": "DBRLDRAG",
+"oid": 1,
+"parentCode": "DBRLDRDEF",
+"pid": 2,
+"value": true
+}
+],
+"DBBSDFBSPlan": [
+{
+"code": "DBBSDFBSPlan",
+"oid": 2,
+"parentCode": "DBBSDFBS",
+"pid": 2,
+"referenceList": [
+{
+"code": "DBPPI",
+"referenceIdList": [
+2
+]
+}
+],
+"value": true
+},
+{
+"code": "DBBSDFBSPlan",
+"oid": 1,
+"parentCode": "DBBSDFBS",
+"pid": 1,
+"referenceList": [
+{
+"code": "DBPPI",
+"referenceIdList": [
+1
+]
+}
+],
+"value": true
+}
+],
+"DBCDCDBS": [
+{
+"code": "DBCDCDBS",
+"oid": 1,
+"parentCode": "DBCDCD",
+"pid": 1,
+"value": true
+}
+],
+"DBLMTRULESCFGLMTRULPELGTPE": [
+{
+"code": "DBLMTRULESCFGLMTRULPELGTPE",
+"oid": 1,
+"parentCode": "DBLMTRULESCFGLMTRUL",
+"pid": 1,
+"value": {
+"listValues": [
+{
+"lovValueCode": "LMTRULESRPELGTYPEPERCOUNT",
+"lovValue": "PERIOD_COUNT"
+}
+]
+}
+}
+],
+"DBCICICD": [
+{
+"code": "DBCICICD",
+"oid": 1,
+"parentCode": "DBCICI",
+"pid": 1,
+"value": "123"
+}
+],
+"DBFAFCFAAR": [
+{
+"code": "DBFAFCFAAR",
+"oid": 1,
+"parentCode": "DBFAFCFA",
+"pid": 1,
+"value": "4"
+}
+],
+"DBEDESN": [
+{
+"code": "DBEDESN",
+"oid": 1,
+"parentCode": "DBESDef",
+"pid": 1,
+"value": "earning_set1"
+}
+],
+"DBLMTRULESCFGLMTRULPROFRND": [
+{
+"code": "DBLMTRULESCFGLMTRULPROFRND",
+"oid": 1,
+"parentCode": "DBLMTRULESCFGLMTRUL",
+"pid": 1,
+"value": "4"
+}
+],
+"DBCDCDESAT": [
+{
+"code": "DBCDCDESAT",
+"oid": 1,
+"parentCode": "DBCDCDES",
+"pid": 1,
+"value": {
+"listValues": [
+{
+"lovValueCode": "DBCDCDESATSO",
+"lovValue": "earningSetTemplate1"
+}
+]
+}
+}
+],
+"DBRLDRPCNCLSSELDF": [
+{
+"code": "DBRLDRPCNCLSSELDF",
+"oid": 1,
+"parentCode": "DBRLDRPCNCLS",
+"pid": 1,
+"value": {
+"listValues": [
+{
+"lovValueCode": "DBCIBCDADJM",
+"lovValue": "MONTHLY"
+}
+]
+}
+}
+],
+"DBCDCDFMSO": [
+{
+"code": "DBCDCDFMSO",
+"oid": 1,
+"parentCode": "DBCDCDFM",
+"pid": 1,
+"value": "25"
+}
+],
+"DBLMTRULESCFGLMTRULID": [
+{
+"code": "DBLMTRULESCFGLMTRULID",
+"oid": 1,
+"parentCode": "DBLMTRULESCFGLMTRUL",
+"pid": 1,
+"value": "limit_rule1"
+}
+],
+"DBFAESCFGFAELMTMETHODRUL": [
+{
+"code": "DBFAESCFGFAELMTMETHODRUL",
+"oid": 1,
+"parentCode": "DBFAESCFGFAELMT",
+"pid": 1,
+"referenceList": [
+{
+"code": "DBLMTRULESCFGLMTRUL",
+"referenceIdList": [
+1
+]
+}
+],
+"value": true
+},
+{
+"code": "DBFAESCFGFAELMTMETHODRUL",
+"oid": 2,
+"parentCode": "DBFAESCFGFAELMT",
+"pid": 2,
+"referenceList": [
+{
+"code": "DBLMTRULESCFGLMTRUL",
+"referenceIdList": [
+1
+]
+}
+],
+"value": true
+}
+],
+"DBCDCDMAT": [
+{
+"code": "DBCDCDMAT",
+"oid": 1,
+"parentCode": "DBCDCDM",
+"pid": 1,
+"value": {
+"listValues": [
+{
+"lovValueCode": "DBCDCDMATM",
+"lovValue": "messagesTemplate1"
+}
+]
+}
+}
+],
+"DBCDCDBI": [
+{
+"code": "DBCDCDBI",
+"oid": 1,
+"parentCode": "DBCDCD",
+"pid": 1,
+"value": true
+}
+],
+"DBFAESCFGFAEESET": [
+{
+"code": "DBFAESCFGFAEESET",
+"oid": 1,
+"parentCode": "DBFAESCFGFAE",
+"pid": 1,
+"referenceList": [
+{
+"code": "DBESDef",
+"referenceIdList": [
+1
+]
+}
+],
+"value": true
+},
+{
+"code": "DBFAESCFGFAEESET",
+"oid": 2,
+"parentCode": "DBFAESCFGFAE",
+"pid": 2,
+"referenceList": [
+{
+"code": "DBESDef",
+"referenceIdList": [
+1
+]
+}
+],
+"value": true
+}
+],
+"DBESAddStepID": [
+{
+"code": "DBESAddStepID",
+"oid": 1,
+"parentCode": "DBESAddStep",
+"pid": 1,
+"value": "st"
+}
+],
+"DBACRCREDIT": [
+{
+"code": "DBACRCREDIT",
+"oid": 1,
+"parentCode": "DBAC",
+"pid": 1,
+"value": true

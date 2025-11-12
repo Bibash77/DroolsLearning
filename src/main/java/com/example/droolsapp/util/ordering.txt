@@ -1,0 +1,102 @@
+DBACCCFSASSTREADSTP  (read step) and final --
+
+DBACCCFSASST  (parent---step type) 4th
+
+DBACCCFSAS  (step) third level
+
+
+DBACCCFS  (configure steps) 2nd level
+
+DBACACA  (account) top parent
+====================
+"DBACCCFSASSTREADSTP": [
+      {
+        "code": "DBACCCFSASSTREADSTP",
+        "oid": 2,
+        "parentCode": "DBACCCFSASST",
+        "pid": 1,
+        "value": true
+      },
+      {
+        "code": "DBACCCFSASSTREADSTP",
+        "oid": 1,
+        "parentCode": "DBACCCFSASST",
+        "pid": 2,
+        "value": true
+      }
+
+
+      ----------------------------
+
+
+      json
+
+
+      {
+        "apiMessageList": [
+          {
+
+           "DBACCCFSASST": [
+            {
+              "code": "DBACCCFSASST",
+              "oid": 1,
+              "parentCode": "DBACCCFSAS",
+              "pid": 2,
+              "value": true
+            },
+      {
+              "code": "DBACCCFSASST",
+              "oid": 2,
+              "parentCode": "DBACCCFSAS",
+              "pid": 1,
+              "value": true
+            }
+          ],
+      	"DBACCCFSASSTREADSTP": [
+            {
+              "code": "DBACCCFSASSTREADSTP",
+              "oid": 2,
+              "parentCode": "DBACCCFSASST",
+              "pid": 1,
+              "value": true
+            },
+      {
+              "code": "DBACCCFSASSTREADSTP",
+              "oid": 1,
+              "parentCode": "DBACCCFSASST",
+              "pid": 2,
+              "value": true
+            }
+          ],
+      	"DBACCCFSASID": [
+      {
+              "code": "DBACCCFSASID",
+              "oid": 2,
+              "parentCode": "DBACCCFSAS",
+              "pid": 2,
+              "value": "ii2"
+            },
+            {
+              "code": "DBACCCFSASID",
+              "oid": 1,
+              "parentCode": "DBACCCFSAS",
+              "pid": 1,
+              "value": "ii1"
+            }
+          ],
+      "DBACCCFSAS": [
+            {
+              "code": "DBACCCFSAS",
+              "oid": 2,
+              "parentCode": "DBACCCFS",
+              "pid": 1,
+              "value": true
+            },
+            {
+              "code": "DBACCCFSAS",
+              "oid": 1,
+              "parentCode": "DBACCCFS",
+              "pid": 1,
+              "value": true
+            }
+          ],
