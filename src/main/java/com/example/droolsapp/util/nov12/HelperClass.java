@@ -1,18 +1,13 @@
 package com.example.droolsapp.util.nov12;
 
-/**
- * @author Bibash Bogati
- * @created 2025-11-12
- */
+import java.util.*;
+import java.util.stream.Collectors;
+
 public class HelperClass {
 
+    private static final Logger LOGGER = LoggerFactory.getLogger(HelperClass.class);
 
-    // todo sudarshan  :: call this method from drools file .. pas the model .
-    //  . also replace x step with another step
-    /**
-     * Wrapper method to validate all unique step types (e.g., ReadStep, XStep) under same top-level parent (Account).
-     * This is the only method you’ll need to call from Drools.
-     */
+    // todo: call this method from drools file, passing only model.
     public static List<RuleResponse> validateAllUniqueSteps(PlanDataModel model) {
         // Define which step codes need uniqueness validation
         List<String> stepCodes = Arrays.asList(
@@ -26,12 +21,6 @@ public class HelperClass {
         return validateUniqueStepValuesByTopParent(model, stepCodes, topParentCode);
     }
 
-
-
-
-    /**
-     * Validates that the given step codes have unique values under the same top parent (like Account).
-     */
     public static List<RuleResponse> validateUniqueStepValuesByTopParent(
             PlanDataModel model,
             List<String> stepCodes,
@@ -40,9 +29,11 @@ public class HelperClass {
         long startTime = System.currentTimeMillis();
         List<RuleResponse> violations = new ArrayList<>();
 
-        // Flatten all elements by OID for parent traversal
-        Map<Long, CatalogElement> elementByOid = new HashMap<>();
-        model.getDataMap().values().forEach(list -> list.forEach(e -> elementByOid.put(e.getOid(), e)));
+        // Flatten all elements for traversal
+        List<CatalogElement> allElements = model.getDataMap().values()
+                .stream()
+                .flatMap(Collection::stream)
+                .collect(Collectors.toList());
 
         Set<String> seen = new HashSet<>();
 
@@ -57,7 +48,7 @@ public class HelperClass {
                 String value = Objects.toString(elem.getValue(), "").trim();
                 if (value.isEmpty()) continue;
 
-                Long topParentOid = findTopParentOid(elem, elementByOid, topParentCode);
+                Long topParentOid = findTopParentOid(elem, allElements, topParentCode);
 
                 if (topParentOid != null) {
                     String comboKey = topParentOid + "|" + value;
@@ -79,21 +70,29 @@ public class HelperClass {
         return violations;
     }
 
-    /**
-     * Traverses parent chain upward until reaching the specified top parent code.
-     */
-    private static Long findTopParentOid(CatalogElement element, Map<Long, CatalogElement> elementByOid, String topParentCode) {
-        CatalogElement current = elementByOid.get(element.getPid());
+    private static Long findTopParentOid(
+            CatalogElement element,
+            List<CatalogElement> allElements,
+            String topParentCode
+    ) {
+        CatalogElement current = element;
         int safetyCounter = 0;
 
-        while (current != null && safetyCounter++ < 100) {
+        while (current != null && safetyCounter++ < 200) {
             if (topParentCode.equals(current.getCode())) {
                 return current.getOid();
             }
-            current = elementByOid.get(current.getPid());
+
+            CatalogElement parent = allElements.stream()
+                    .filter(e -> e.getOid() != null && e.getCode() != null)
+                    .filter(e -> e.getOid().equals(current.getPid())
+                            && e.getCode().equals(current.getParentCode()))
+                    .findFirst()
+                    .orElse(null);
+
+            current = parent;
         }
 
-        return null;
+        return null; // top parent not found
     }
-
 }
